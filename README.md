@@ -140,6 +140,9 @@ END MAIN
 -   BX = `1234H`
 -   RESULT = `1234H`
 
+<img width="227" height="236" alt="image" src="https://github.com/user-attachments/assets/8c93fbca-e130-4d40-9c15-94bf50c073ff" />
+
+
 ### Explanation
 
 `MOV BX, AX` copies the 16-bit contents of AX into BX without changing
@@ -165,6 +168,19 @@ Write an 8086 assembly language program to exchange the contents of two
 5.  Stop the program.
 
 ### Assembly Program
+MOV AX, 1111H
+MOV BX, 2222H
+
+MOV [2000H], AX
+MOV [2002H], BX
+
+MOV AX, [2000H]
+MOV BX, [2002H]
+
+MOV [2000H], BX
+MOV [2002H], AX
+
+HLT
 
  
 
@@ -174,6 +190,8 @@ Write an 8086 assembly language program to exchange the contents of two
   ----------------- ------------------ -----------------
   VALUE1                       `1111H`           `2222H`
   VALUE2                       `2222H`           `1111H`
+### Output
+
 
 ### Explanation
 
@@ -191,6 +209,8 @@ Write an 8086 assembly language program to exchange the contents of two
 7.  Record the observed results and compare them with the expected
     results.
 ## Screenshot of the results 
+<img width="217" height="232" alt="image" src="https://github.com/user-attachments/assets/a5a45f27-ee5f-4a2f-903d-89b01b922ef3" />
+
 
 
 
