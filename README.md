@@ -139,7 +139,7 @@ END MAIN
 -   AX = `1234H`
 -   BX = `1234H`
 -   RESULT = `1234H`
-
+### Screenshot of the output
 <img width="227" height="236" alt="image" src="https://github.com/user-attachments/assets/8c93fbca-e130-4d40-9c15-94bf50c073ff" />
 
 
@@ -190,7 +190,7 @@ HLT
   ----------------- ------------------ -----------------
   VALUE1                       `1111H`           `2222H`
   VALUE2                       `2222H`           `1111H`
-### Output
+
 
 
 ### Explanation
